@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Odhilla — Front-end Developer for Accessible, High‑Performance Web Apps</title>
+  <meta name="description" content="Odhilla builds fast, accessible front-end experiences for startups and product teams. See case studies and availability." />
+  <meta property="og:title" content="Odhilla — Front-end Developer" />
+  <meta property="og:description" content="Fast, accessible front-end apps. Case studies & contact." />
+  <meta property="og:image" content="/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Odhilla",
+    "url": "https://odhilla.github.io/portfolio",
+    "jobTitle": "Front-end Developer",
+    "sameAs": [
+      "https://github.com/Odhilla",
+      "https://www.linkedin.com/in/your-profile"
+    ]
+  }
+  </script>
+  <style>
+    :root { --bg:#0b0f14; --card:#0f1720; --accent:#7dd3fc; --muted:#94a3b8; color-scheme: dark; }
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;font-size:16px;background:linear-gradient(180deg,#020617, #071226);color:#e6eef6}
+    .container{max-width:980px;margin:0 auto;padding:32px}
+    header{display:flex;justify-content:space-between;align-items:center;padding-bottom:28px}
+    a.logo{font-weight:700;color:var(--accent);text-decoration:none}
+    .hero{display:grid;grid-template-columns:1fr;gap:20px;padding:28px 0}
+    h1{margin:0;font-size:clamp(28px,4vw,44px)}
+    p.lead{margin:0;color:var(--muted);line-height:1.5}
+    .ctas{margin-top:16px;display:flex;gap:12px}
+    .btn{padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:#042027}
+    .btn-ghost{border:1px solid rgba(255,255,255,0.06);color:inherit;background:transparent}
+    .highlights{display:flex;gap:12px;margin-top:22px}
+    .card{background:rgba(255,255,255,0.02);padding:14px;border-radius:10px;flex:1}
+    .projects{margin-top:28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    footer{margin-top:48px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted);font-size:14px}
+    @media(min-width:900px){ .hero{grid-template-columns: 1fr 360px} .intro{padding-right:24px} .aside-card{background:var(--card);padding:18px;border-radius:12px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="logo" href="/">Odhilla</a>
+      <nav aria-label="Main navigation">
+        <a class="btn btn-ghost" href="/projects/">Case studies</a>
+        <a class="btn btn-ghost" href="/#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="intro">
+          <h1 id="hero-title">I’m Odhilla — front-end developer building fast, accessible web apps for product‑led teams</h1>
+          <p class="lead">I turn complex UX into performant, accessible experiences that scale. I specialize in HTML/CSS/JavaScript and shipping measurable performance and accessibility improvements.</p>
+          <div class="ctas">
+            <a class="btn btn-primary" href="#contact">Hire me — view availability</a>
+            <a class="btn btn-ghost" href="/projects/">See case studies</a>
+          </div>
+
+          <div class="highlights" role="list" aria-label="Key highlights">
+            <div class="card" role="listitem">
+              <strong>Performance</strong>
+              <div style="color:var(--muted);font-size:14px">Lighthouse scores up to 98; reduced TTI by 40%</div>
+            </div>
+            <div class="card" role="listitem">
+              <strong>Accessibility</strong>
+              <div style="color:var(--muted);font-size:14px">WCAG AA components; keyboard-first interactions</div>
+            </div>
+            <div class="card" role="listitem">
+              <strong>Production-ready</strong>
+              <div style="color:var(--muted);font-size:14px">TypeScript, tests, and CI-friendly builds</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="aside-card" aria-labelledby="featured-heading">
+          <h3 id="featured-heading">Featured projects</h3>
+          <div class="projects">
+            <article>
+              <h4>CarePortal</h4>
+              <p style="color:var(--muted);margin:6px 0">Reduced load from 3.8s → 1.5s • Lead Front‑end (Next.js)</p>
+              <a class="btn btn-ghost" href="/projects/careportal.html">Read case study</a>
+            </article>
+            <article>
+              <h4>FormsFlow</h4>
+              <p style="color:var(--muted);margin:6px 0">Form completion time −30% • Accessibility fixes</p>
+              <a class="btn btn-ghost" href="/projects/formsflow.html">Read case study</a>
+            </article>
+            <article>
+              <h4>OpenSource Widget</h4>
+              <p style="color:var(--muted);margin:6px 0">1k+ downloads • Reusable input library</p>
+              <a class="btn btn-ghost" href="/projects/opensource-widget.html">Read case study</a>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section id="contact" style="margin-top:36px">
+        <h3>Want to work together?</h3>
+        <p style="color:var(--muted)">I’m currently accepting freelance & contract projects. Book a 15‑min call or email me at <a href="mailto:odingahillary148@gmail.com">odingahillary148@gmail.com</a>.</p>
+        <div style="margin-top:12px">
+          <a class="btn btn-primary" href="mailto:odingahillary148@gmail.com">Email</a>
+          <a class="btn btn-ghost" href="/resume.pdf" style="margin-left:8px">Resume (PDF)</a>
+        </div>
+      </section>
+
+      <footer>
+        © 2026 Odhilla — Built with accessibility-first principles. <a href="https://github.com/Odhilla" style="color:var(--accent)">GitHub</a> • <a href="#" style="color:var(--accent)">LinkedIn</a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
